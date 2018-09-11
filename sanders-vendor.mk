@@ -142,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/sanders/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/sanders/proprietary/vendor/lib/hw/camera.msm8953.so:system/vendor/lib/hw/camera.msm8953.so \
     vendor/motorola/sanders/proprietary/vendor/lib/sensors.rp.so:system/vendor/lib/sensors.rp.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_motsensorlistener.so:system/vendor/lib/lib_motsensorlistener.so \
     vendor/motorola/sanders/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
@@ -151,18 +150,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
-    vendor/motorola/sanders/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/sanders/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmot_afd.so:system/vendor/lib/libmot_afd.so \
-    vendor/motorola/sanders/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
     vendor/motorola/sanders/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmotimager_utils.so:system/vendor/lib/libmotimager_utils.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_mot_led_calibration.so:system/vendor/lib/lib_mot_led_calibration.so \
     vendor/motorola/sanders/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
     vendor/motorola/sanders/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/sanders/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
@@ -251,43 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/motorola/sanders/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_4k_video_3a.so:system/vendor/lib/libchromatix_ov16860_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_common.so:system/vendor/lib/libchromatix_ov16860_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov16860_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so:system/vendor/lib/libchromatix_ov16860_cpp_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_ov16860_cpp_liveshot_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_snapshot.so:system/vendor/lib/libchromatix_ov16860_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_video.so:system/vendor/lib/libchromatix_ov16860_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_cpp_video_4k.so:system/vendor/lib/libchromatix_ov16860_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_default_ihdr_video.so:system/vendor/lib/libchromatix_ov16860_default_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_default_video.so:system/vendor/lib/libchromatix_ov16860_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_hfr_120.so:system/vendor/lib/libchromatix_ov16860_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_hfr_120_3a.so:system/vendor/lib/libchromatix_ov16860_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so:system/vendor/lib/libchromatix_ov16860_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so:system/vendor/lib/libchromatix_ov16860_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_postproc.so:system/vendor/lib/libchromatix_ov16860_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_snapshot.so:system/vendor/lib/libchromatix_ov16860_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_video_4k.so:system/vendor/lib/libchromatix_ov16860_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov16860_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov16860_zsl_video_3a.so:system/vendor/lib/libchromatix_ov16860_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_common.so:system/vendor/lib/libchromatix_ov5693_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5693_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5693_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5693_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_cpp_video.so:system/vendor/lib/libchromatix_ov5693_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_default_video.so:system/vendor/lib/libchromatix_ov5693_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_default_video_3a.so:system/vendor/lib/libchromatix_ov5693_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_hfr_120.so:system/vendor/lib/libchromatix_ov5693_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_hfr_120_3a.so:system/vendor/lib/libchromatix_ov5693_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_postproc.so:system/vendor/lib/libchromatix_ov5693_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_snapshot.so:system/vendor/lib/libchromatix_ov5693_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ov5693_snapshot_3a.so:system/vendor/lib/libchromatix_ov5693_snapshot_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -298,10 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libflash_sky81298.so:system/vendor/lib/libflash_sky81298.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libflash_wd3100.so:system/vendor/lib/libflash_wd3100.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -311,8 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/sanders/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -322,97 +272,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:system/vendor/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:system/vendor/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:system/vendor/lib/libmmcamera_isp_bpc40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:system/vendor/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:system/vendor/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:system/vendor/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:system/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:system/vendor/lib/libmmcamera_isp_color_correct40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:system/vendor/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:system/vendor/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:system/vendor/lib/libmmcamera_isp_demosaic40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:system/vendor/lib/libmmcamera_isp_gamma40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:system/vendor/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:system/vendor/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:system/vendor/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:system/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_sce40.so:system/vendor/lib/libmmcamera_isp_sce40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ov5693.so:system/vendor/lib/libmmcamera_ov5693.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ov5693_eeprom.so:system/vendor/lib/libmmcamera_ov5693_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_vstab_module.so:system/vendor/lib/libmmcamera_vstab_module.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmot_gpu_mapper.so:system/vendor/lib/libmot_gpu_mapper.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/sanders/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
@@ -421,15 +289,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libqmi_cci_system.so:system/vendor/lib/libqmi_cci_system.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -444,31 +309,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/sanders/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libscalar.so:system/vendor/lib/libscalar.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveBlobDescriptor.so:system/vendor/lib/libscveBlobDescriptor.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:system/vendor/lib/libscveBlobDescriptor_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveCleverCapture.so:system/vendor/lib/libscveCleverCapture.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveCleverCapture_stub.so:system/vendor/lib/libscveCleverCapture_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveCommon.so:system/vendor/lib/libscveCommon.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveCommon_stub.so:system/vendor/lib/libscveCommon_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveFaceRecognition.so:system/vendor/lib/libscveFaceRecognition.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveImageCloning.so:system/vendor/lib/libscveImageCloning.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveImageCorrection.so:system/vendor/lib/libscveImageCorrection.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveImageRemoval.so:system/vendor/lib/libscveImageRemoval.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveMotionVector.so:system/vendor/lib/libscveMotionVector.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectMatting.so:system/vendor/lib/libscveObjectMatting.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectMatting_stub.so:system/vendor/lib/libscveObjectMatting_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectSegmentation.so:system/vendor/lib/libscveObjectSegmentation.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:system/vendor/lib/libscveObjectSegmentation_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectTracker.so:system/vendor/lib/libscveObjectTracker.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveObjectTracker_stub.so:system/vendor/lib/libscveObjectTracker_stub.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscvePanorama.so:system/vendor/lib/libscvePanorama.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscvePanorama_lite.so:system/vendor/lib/libscvePanorama_lite.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveTextReco.so:system/vendor/lib/libscveTextReco.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:system/vendor/lib/libscveTextRecoPostProcessing.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libscveTextReco_stub.so:system/vendor/lib/libscveTextReco_stub.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
@@ -476,10 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
@@ -487,8 +324,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so:system/vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:system/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so:system/vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so \
@@ -506,31 +341,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
     vendor/motorola/sanders/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/motorola/sanders/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx214.so:system/vendor/lib/libmmcamera_mot_imx214.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx258.so:system/vendor/lib/libmmcamera_mot_imx258.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx258_bear.so:system/vendor/lib/libmmcamera_mot_imx258_bear.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx258_mono.so:system/vendor/lib/libmmcamera_mot_imx258_mono.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx362.so:system/vendor/lib/libmmcamera_mot_imx362.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:system/vendor/lib/libmmcamera_mot_ov5695.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:system/vendor/lib/libmmcamera_ov5695_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_sony_rumba_eeprom.so:system/vendor/lib/libmmcamera_sony_rumba_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_imx338.so:system/vendor/lib/libmmcamera_imx338.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_common.so:system/vendor/lib/libchromatix_ar1335_common.so \
     vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
@@ -542,176 +353,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libadspd.so:system/vendor/lib/libadspd.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libadspd.so:system/vendor/lib64/libadspd.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so:system/vendor/lib/libchromatix_ar1335_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_cpp_liveshot.so:system/vendor/lib/libchromatix_ar1335_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_cpp_preview.so:system/vendor/lib/libchromatix_ar1335_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_cpp_snapshot.so:system/vendor/lib/libchromatix_ar1335_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_cpp_video.so:system/vendor/lib/libchromatix_ar1335_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_default_video.so:system/vendor/lib/libchromatix_ar1335_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_hfr_120.so:system/vendor/lib/libchromatix_ar1335_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_hfr_120_3a.so:system/vendor/lib/libchromatix_ar1335_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_postproc.so:system/vendor/lib/libchromatix_ar1335_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_snapshot.so:system/vendor/lib/libchromatix_ar1335_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_zsl_video_3a.so:system/vendor/lib/libchromatix_ar1335_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_cpp_preview.so:system/vendor/lib/libchromatix_imx219_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_cpp_video_full.so:system/vendor/lib/libchromatix_imx219_cpp_video_full.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_hfr_120.so:system/vendor/lib/libchromatix_imx219_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_hfr_120_3a.so:system/vendor/lib/libchromatix_imx219_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_postproc.so:system/vendor/lib/libchromatix_imx219_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_video_full.so:system/vendor/lib/libchromatix_imx219_video_full.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx219_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:system/vendor/lib/libchromatix_imx219_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_4k_video_3a.so:system/vendor/lib/libchromatix_imx338_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_common.so:system/vendor/lib/libchromatix_imx338_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx338_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_imx338_cpp_liveshot_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_qtr_res_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_snapshot.so:system/vendor/lib/libchromatix_imx338_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_video.so:system/vendor/lib/libchromatix_imx338_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_cpp_video_4k.so:system/vendor/lib/libchromatix_imx338_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_default_ihdr_video.so:system/vendor/lib/libchromatix_imx338_default_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_default_video.so:system/vendor/lib/libchromatix_imx338_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_hfr_120.so:system/vendor/lib/libchromatix_imx338_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_hfr_120_3a.so:system/vendor/lib/libchromatix_imx338_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_hfr_60.so:system/vendor/lib/libchromatix_imx338_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_hfr_60_3a.so:system/vendor/lib/libchromatix_imx338_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_3a.so:system/vendor/lib/libchromatix_imx338_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_ihdr_video_4k.so:system/vendor/lib/libchromatix_imx338_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_postproc.so:system/vendor/lib/libchromatix_imx338_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so:system/vendor/lib/libchromatix_imx338_qtr_res_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so:system/vendor/lib/libchromatix_imx338_qtr_res_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_snapshot.so:system/vendor/lib/libchromatix_imx338_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_video_4k.so:system/vendor/lib/libchromatix_imx338_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx338_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_imx338_zsl_video_3a.so:system/vendor/lib/libchromatix_imx338_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_ihdr_video_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_4k_video_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_common.so:system/vendor/lib/libchromatix_mot_imx214_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_4k_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_liveshot_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_4k_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so:system/vendor/lib/libchromatix_mot_imx214_cpp_video_ihdr.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_default_4k_video.so:system/vendor/lib/libchromatix_mot_imx214_default_4k_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx214_default_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_default_video.so:system/vendor/lib/libchromatix_mot_imx214_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_120_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so:system/vendor/lib/libchromatix_mot_imx214_hfr_60_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_ihdr_video_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_postproc.so:system/vendor/lib/libchromatix_mot_imx214_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_snapshot.so:system/vendor/lib/libchromatix_mot_imx214_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_preview_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so:system/vendor/lib/libchromatix_mot_imx214_zsl_video_3A.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_common.so:system/vendor/lib/libchromatix_mot_imx258_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_default_video.so:system/vendor/lib/libchromatix_mot_imx258_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx258_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_postproc.so:system/vendor/lib/libchromatix_mot_imx258_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_1080p_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_common.so:system/vendor/lib/libchromatix_mot_imx362_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx362_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_default_video.so:system/vendor/lib/libchromatix_mot_imx362_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_default_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_fullsize_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_240_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx362_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_postproc.so:system/vendor/lib/libchromatix_mot_imx362_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_preview.so:system/vendor/lib/libchromatix_mot_imx362_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_snapshot.so:system/vendor/lib/libchromatix_mot_imx362_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx362_video_4k.so:system/vendor/lib/libchromatix_mot_imx362_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:system/vendor/lib/libchromatix_mot_ov5695_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video_full.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_video_full.so:system/vendor/lib/libchromatix_s5k4h8_video_full.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
@@ -720,24 +362,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libesepm.so:system/vendor/lib/libesepm.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libevent_observer.so:system/vendor/lib/libevent_observer.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFidoCryptoJNI.so:system/vendor/lib/libFidoCryptoJNI.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFIDOKeyProvisioning.so:system/vendor/lib/libFIDOKeyProvisioning.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libflash_aw3641.so:system/vendor/lib/libflash_aw3641.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libjni_dualcamera.so:system/vendor/lib/libjni_dualcamera.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_ar1335.so:system/vendor/lib/libmmcamera_ar1335.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dw9767_eeprom.so:system/vendor/lib/libmmcamera_dw9767_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
@@ -755,14 +389,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxG711Dec.so:system/vendor/lib/libOmxG711Dec.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqti-gt.so:system/vendor/lib/libqti-gt.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libts_detected_face_jni.so:system/vendor/lib/libts_detected_face_jni.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libts_face_beautify_jni.so:system/vendor/lib/libts_face_beautify_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libSampleExtAuthJNI.so:system/vendor/lib/libSampleExtAuthJNI.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsdsprpc.so:system/vendor/lib/libsdsprpc.so \
@@ -809,8 +440,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libzaf_algs.so:system/vendor/lib/libzaf_algs.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libzaf_core.so:system/vendor/lib/libzaf_core.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_drplugin_server.so:system/vendor/lib/lib_drplugin_server.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_remote_simlock.so:system/vendor/lib/lib_remote_simlock.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
@@ -833,79 +462,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/sanders/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
     vendor/motorola/sanders/proprietary/vendor/bin/fmhal_service:system/vendor/bin/fmhal_service \
     vendor/motorola/sanders/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_common.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_fullsize_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_240_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_1080p_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_1080p_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_common.so:system/vendor/lib/libchromatix_mot_s5k2l7_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_cpp_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_fullsize_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_fullsize_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_240.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_240_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_ihdr_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_postproc.so:system/vendor/lib/libchromatix_mot_s5k2l7_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_preview.so:system/vendor/lib/libchromatix_mot_s5k2l7_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so:system/vendor/lib/libchromatix_mot_s5k2l7_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so:system/vendor/lib/libchromatix_mot_s5k2l7_video_4k.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k2l7.so:system/vendor/lib/libmmcamera_mot_s5k2l7.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:system/vendor/lib/libmmcamera_mot_s5k2l7sa.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libS5k2l7Pdaf.so:system/vendor/lib/libS5k2l7Pdaf.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libS5k2l7PdafCamif.so:system/vendor/lib/libS5k2l7PdafCamif.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/sanders/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
@@ -921,117 +480,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
-    vendor/motorola/sanders/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/sanders/proprietary/vendor/lib/libpanelmode.so:system/vendor/lib/libpanelmode.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libbson.so:system/vendor/lib/libbson.so \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_rsu.so:system/vendor/lib/lib_rsu.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371_bear.so:system/vendor/lib/libactuator_mot_ak7371_bear.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371_mono.so:system/vendor/lib/libactuator_mot_ak7371_mono.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libbase64.so:system/vendor/lib/libbase64.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libbt-logClient.so:system/vendor/lib/libbt-logClient.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libclearsight.so:system/vendor/lib/libclearsight.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libjni_clearsight.so:system/vendor/lib/libjni_clearsight.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmcf-qc-fd-offline.so:system/vendor/lib/libmcf-qc-fd-offline.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_l4h8f20_eeprom.so:system/vendor/lib/libmmcamera_l4h8f20_eeprom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_bear.so:system/vendor/lib/libmmcamera_mot_s5k3l8_bear.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_s5k3l8_mono.so:system/vendor/lib/libmmcamera_mot_s5k3l8_mono.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libslpcsystem_jni.so:system/vendor/lib/libslpcsystem_jni.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_4k_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_common.so:system/vendor/lib/libchromatix_mot_imx258_bear_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_bear_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_default_video.so:system/vendor/lib/libchromatix_mot_imx258_bear_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_bear_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_hfr_60.so:system/vendor/lib/libchromatix_mot_imx258_bear_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_postproc.so:system/vendor/lib/libchromatix_mot_imx258_bear_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_preview.so:system/vendor/lib/libchromatix_mot_imx258_bear_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_bear_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_bear_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_bear_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_4k_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_4k_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_4k_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_4k_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_common.so:system/vendor/lib/libchromatix_mot_imx258_mono_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_preview.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_cpp_video.so:system/vendor/lib/libchromatix_mot_imx258_mono_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_default_video.so:system/vendor/lib/libchromatix_mot_imx258_mono_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_120.so:system/vendor/lib/libchromatix_mot_imx258_mono_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_hfr_60.so:system/vendor/lib/libchromatix_mot_imx258_mono_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_postproc.so:system/vendor/lib/libchromatix_mot_imx258_mono_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_preview.so:system/vendor/lib/libchromatix_mot_imx258_mono_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_snapshot.so:system/vendor/lib/libchromatix_mot_imx258_mono_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_imx258_mono_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_imx258_mono_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_default_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_ofilm_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_common.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot_custom.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot_custom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_snapshot_downscale.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_default_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_60_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_60_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_60.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_hfr_60.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_postproc.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_preview.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_snapshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_video.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_bear_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_bear_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_common.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_common.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_liveshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_preview.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot_custom.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot_custom.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_snapshot_downscale.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_video.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_cpp_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_default_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_default_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_default_video_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_default_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_hfr_120_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_hfr_120.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_hfr_120.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_postproc.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_postproc.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_preview.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_preview.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_snapshot.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_snapshot.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_video.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_video.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_preview_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so:system/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so \
-    vendor/motorola/sanders/proprietary/vendor/bin/sensors.qti:system/vendor/bin/sensors.qti \
     vendor/motorola/sanders/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
     vendor/motorola/sanders/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
@@ -1105,7 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_cci_system.so:system/vendor/lib64/libqmi_cci_system.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
@@ -1132,14 +589,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libsdm-disp-vndapis.so:system/vendor/lib64/libsdm-disp-vndapis.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/sensors.rp.so:system/vendor/lib64/sensors.rp.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.color@1.0.so:system/vendor/lib64/vendor.display.color@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.color@1.1.so:system/vendor/lib64/vendor.display.color@1.1.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
@@ -1271,8 +723,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/sanders/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
-    vendor/motorola/sanders/proprietary/vendor/lib/libsensorndkbridge.so:system/vendor/lib/libsensorndkbridge.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/libsensorndkbridge.so:system/vendor/lib64/libsensorndkbridge.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
@@ -1291,11 +741,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4.so:system/vendor/lib/motorola.hardware.camera.provider@2.4.so \
     vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so:system/vendor/lib/motorola.hardware.camera.provider@2.4_vendor.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
-    vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:system/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/motorola/sanders/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
-    vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
+    vendor/motorola/sanders/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
+    vendor/motorola/sanders/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libadvalgcore.so:system/vendor/lib/libadvalgcore.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libmpbase.so:system/vendor/lib/libmpbase.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -1324,4 +773,3 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     QtiTelephonyService \
     CNEService
-
